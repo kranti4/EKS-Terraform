@@ -13,7 +13,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "kubectl-server" {
-  ami                         = "ami-063e1495af50e6fd5"
+  ami                         = "ami-0c7217cdde317cfec"
   key_name                    = "ekscluster"
   instance_type               = "t2.small"
   associate_public_ip_address = true
