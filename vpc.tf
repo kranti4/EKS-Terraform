@@ -5,4 +5,3 @@ resource "aws_vpc" "main" {
     Name = "aws-vpc-abc"
   }
 }
-#kranti
